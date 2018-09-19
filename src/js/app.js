@@ -57,7 +57,6 @@ UI.prototype.clearFields = function () {
 }
 
 //Event listeners for add book
-
 document.getElementById('book-form').addEventListener('submit', function(e){
   //get form values
   const title = document.getElementById('title').value,
